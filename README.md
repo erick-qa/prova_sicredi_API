@@ -1,5 +1,7 @@
 # Teste de API
 
+* O arquivo "Prova_Sicredi_API.postman_collection.json" é onde estão contidos todos os testes. Para rodar basta ter o programa Postman instalado, importar esse arquivo e executar a collection, o arquivo "Prova_Sicredi_API.postman_test_run.json" é onde estão contidos todos os resultados descritos abaixo, mas podem ser obtidos apenas executando a collection.
+
 * Os 10 CPF'S da documentação informam que tem restrição, mas o resultado da API foi "204", resultando que não possuem restrição. Sendo assim, todos os testes falharam.
 
 * Para os testes de cadastramento de simulação, foram realizados da seguinte maneira:
