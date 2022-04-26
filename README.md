@@ -4,9 +4,15 @@
 
 * Para os testes de cadastramento de simulação, foram realizados da seguinte maneira:
 
-`Duas simulações efetuadas de forma correta que retornaram status 201.`
-`Uma simulação com 50 parcelas (fora da regra de negócio) que não retornou erro 400, e sim 201. Sendo assim, o teste falhou.`
-`E uma simulação com o mesmo CPF da primeira simulação, que não retornou erro 409, e sim 400. Sendo assim, o teste falhou.`
+```bash
+Duas simulações efetuadas de forma correta que retornaram status 201.
+```
+```bash
+Uma simulação com 50 parcelas (fora da regra de negócio) que não retornou erro 400, e sim 201. Sendo assim, o teste falhou.
+```
+```bash
+E uma simulação com o mesmo CPF da primeira simulação, que não retornou erro 409, e sim 400. Sendo assim, o teste falhou.
+```
 
 * O teste de alteração não teve resposta 200, e sim 404, API retornou que o CPF da primeira simulação cadastrada não foi encontrado. Sendo assim, o teste falhou.
 
