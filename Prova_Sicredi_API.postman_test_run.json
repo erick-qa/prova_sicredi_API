@@ -1,0 +1,684 @@
+{
+	"id": "3b8bc3f8-465d-46f1-b66a-62c513598c89",
+	"name": "Prova_Sicredi_API",
+	"timestamp": "2022-04-26T00:20:36.614Z",
+	"collection_id": "14495774-1baafa87-be95-4bf5-a819-f15a49ed2da8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 22,
+	"totalFail": 15,
+	"results": [
+		{
+			"id": "246d3792-bf6c-4451-86aa-f591f244d6c6",
+			"name": "CPF 97093236014 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B58063164083%7D",
+			"time": 6,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "9c0cdfe5-a26a-4cdb-9552-0dca98de5af9",
+			"name": "CPF 60094146012 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 5,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "7ce4d5ef-5536-4171-8025-38699ffdb94c",
+			"name": "CPF 84809766080 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 4,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "5b446dbd-2cae-47ea-96c9-7bfaceb12713",
+			"name": "CPF 62648716050 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 4,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "efabcc66-a601-4994-bdbf-30b00b4ebee0",
+			"name": "CPF 26276298085 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 4,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "8e71d3f7-5639-4f76-9e7a-356c8e8eae77",
+			"name": "CPF 01317496094 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 4,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "317c7bf3-2d14-4fe2-a7cf-14b6630c3416",
+			"name": "CPF 55856777050 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 5,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "2c820f0b-109d-4f49-9aa0-4ecc50febdbb",
+			"name": "CPF 19626829001 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 4,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "61ff53ad-5235-47db-aeeb-35454c868020",
+			"name": "CPF 24094592008 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 4,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "184af60c-29ae-44c5-ab44-40704bf88c33",
+			"name": "CPF 58063164083 Com Restrição",
+			"url": "http://localhost:8888/api/v1/restricoes/%7B97093236014%7D",
+			"time": 4,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "cb38168c-55f9-4eff-9faf-a414555babd4",
+			"name": "Simulação Nova",
+			"url": "http://localhost:8888/api/v1/simulacoes",
+			"time": 6,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Validar status de retorno": true,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": true,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "416f1807-f6ed-4f2c-8aba-d5b5b34fe922",
+			"name": "Simulação Nova",
+			"url": "http://localhost:8888/api/v1/simulacoes",
+			"time": 6,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Validar status de retorno": true,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": true,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "c80bf66a-a8ef-4c8f-8c87-bd7ab934e9e1",
+			"name": "Simulação Com 50 parcelas",
+			"url": "http://localhost:8888/api/v1/simulacoes",
+			"time": 6,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "7cb57ae7-2236-4a94-9c85-b84feca5bc07",
+			"name": "Simulação Para Um Mesmo CPF",
+			"url": "http://localhost:8888/api/v1/simulacoes",
+			"time": 7,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "01060ca6-b00a-4524-8756-29e8d2f0d019",
+			"name": "Alteração de CPF Com Simulação",
+			"url": "http://localhost:8888/api/v1/simulacoes/%7B324.558.812-70%7D",
+			"time": 6,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "fb8f9f90-beb0-4445-991e-d57d0de98a4b",
+			"name": "Consultar todas as simulações",
+			"url": "http://localhost:8888/api/v1/simulacoes",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"validar cpf": true,
+				"Validar status de retorno": true,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"validar cpf": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar status de retorno": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"validar cpf": true,
+					"Validar status de retorno": true,
+					"validar tempo de retorno da api": true
+				}
+			]
+		},
+		{
+			"id": "22d58e98-0b14-4577-ab43-92496b9baa6b",
+			"name": "Consultar uma simulação por CPF",
+			"url": "http://localhost:8888/api/v1/simulacoes/%7B109.223.983-99%7D",
+			"time": 6,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"validar cpf": false
+			},
+			"testPassFailCounts": {
+				"validar cpf": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"validar cpf": false
+				}
+			]
+		},
+		{
+			"id": "c817e5fa-fa54-406a-aa48-522ee9ec5185",
+			"name": "Deletar Usuário",
+			"url": "http://localhost:8888/api/v1/simulacoes/%7B11%7D",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Validar status de retorno": false,
+				"validar tempo de retorno da api": true
+			},
+			"testPassFailCounts": {
+				"Validar status de retorno": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validar tempo de retorno da api": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Validar status de retorno": false,
+					"validar tempo de retorno da api": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 90,
+	"collection": {
+		"requests": [
+			{
+				"id": "246d3792-bf6c-4451-86aa-f591f244d6c6",
+				"method": "GET"
+			},
+			{
+				"id": "9c0cdfe5-a26a-4cdb-9552-0dca98de5af9",
+				"method": "GET"
+			},
+			{
+				"id": "7ce4d5ef-5536-4171-8025-38699ffdb94c",
+				"method": "GET"
+			},
+			{
+				"id": "5b446dbd-2cae-47ea-96c9-7bfaceb12713",
+				"method": "GET"
+			},
+			{
+				"id": "efabcc66-a601-4994-bdbf-30b00b4ebee0",
+				"method": "GET"
+			},
+			{
+				"id": "8e71d3f7-5639-4f76-9e7a-356c8e8eae77",
+				"method": "GET"
+			},
+			{
+				"id": "317c7bf3-2d14-4fe2-a7cf-14b6630c3416",
+				"method": "GET"
+			},
+			{
+				"id": "2c820f0b-109d-4f49-9aa0-4ecc50febdbb",
+				"method": "GET"
+			},
+			{
+				"id": "61ff53ad-5235-47db-aeeb-35454c868020",
+				"method": "GET"
+			},
+			{
+				"id": "184af60c-29ae-44c5-ab44-40704bf88c33",
+				"method": "GET"
+			},
+			{
+				"id": "cb38168c-55f9-4eff-9faf-a414555babd4",
+				"method": "POST"
+			},
+			{
+				"id": "416f1807-f6ed-4f2c-8aba-d5b5b34fe922",
+				"method": "POST"
+			},
+			{
+				"id": "c80bf66a-a8ef-4c8f-8c87-bd7ab934e9e1",
+				"method": "POST"
+			},
+			{
+				"id": "7cb57ae7-2236-4a94-9c85-b84feca5bc07",
+				"method": "POST"
+			},
+			{
+				"id": "01060ca6-b00a-4524-8756-29e8d2f0d019",
+				"method": "PUT"
+			},
+			{
+				"id": "fb8f9f90-beb0-4445-991e-d57d0de98a4b",
+				"method": "GET"
+			},
+			{
+				"id": "22d58e98-0b14-4577-ab43-92496b9baa6b",
+				"method": "GET"
+			},
+			{
+				"id": "c817e5fa-fa54-406a-aa48-522ee9ec5185",
+				"method": "DELETE"
+			}
+		]
+	}
+}

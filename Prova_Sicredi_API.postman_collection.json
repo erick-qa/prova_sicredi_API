@@ -1,0 +1,838 @@
+{
+	"info": {
+		"_postman_id": "1baafa87-be95-4bf5-a819-f15a49ed2da8",
+		"name": "Prova_Sicredi_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CPF 97093236014 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{58063164083}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{58063164083}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 60094146012 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 84809766080 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 62648716050 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 26276298085 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 01317496094 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 55856777050 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 19626829001 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 24094592008 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CPF 58063164083 Com Restrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/restricoes/{97093236014}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"restricoes",
+						"{97093236014}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simulação Nova",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(201);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cpf\": \"109.223.983-99\",\r\n  \"nome\": \"Lucas Moreira\",\r\n  \"email\": \"tiago.moreira@gmail.com\",\r\n  \"valor\": \"5.000\",\r\n  \"parcelas\": \"10\",\r\n  \"seguro\": \"true\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simulação Nova",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(201);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cpf\": \"274.479.233-03\",\r\n  \"nome\": \"Lucas Moreira\",\r\n  \"email\": \"tiago.moreira@gmail.com\",\r\n  \"valor\": \"5.000\",\r\n  \"parcelas\": \"10\",\r\n  \"seguro\": \"true\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simulação Com 50 parcelas",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(400);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cpf\": \"893.379.833-11\",\r\n  \"nome\": \"Lucas Moreira\",\r\n  \"email\": \"tiago.moreira@gmail.com\",\r\n  \"valor\": \"5.000\",\r\n  \"parcelas\": \"50\",\r\n  \"seguro\": \"true\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simulação Para Um Mesmo CPF",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(409);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cpf\": \"109.223.983-99\",\r\n  \"nome\": \"Lucas Moreira\",\r\n  \"email\": \"tiago.moreira@gmail.com\",\r\n  \"valor\": \"5.000\",\r\n  \"parcelas\": \"10\",\r\n  \"seguro\": \"true\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alteração de CPF Com Simulação",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cpf\": \"109.223.983-99\",\r\n  \"nome\": \"Teste Moreira\",\r\n  \"email\": \"tiago.moreira@gmail.com\",\r\n  \"valor\": \"5.000\",\r\n  \"parcelas\": \"10\",\r\n  \"seguro\": \"true\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes/{324.558.812-70}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes",
+						"{324.558.812-70}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar todas as simulações",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"validar cpf\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"109.223.983-99\");\r",
+							"\r",
+							"    pm.test(\"validar cpf\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"274.479.233-03\");\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(2500);\r",
+							"    });\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar uma simulação por CPF",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"validar cpf\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"805.036.192-64\");\r",
+							"\r",
+							"    pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(2500);\r",
+							"    });\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes/{109.223.983-99}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes",
+						"{109.223.983-99}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Usuário",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validar status de retorno\", function () {\r",
+							"        pm.response.to.have.status(204);\r",
+							"    });\r",
+							"    pm.test(\"validar tempo de retorno da api\", function () {\r",
+							"        pm.expect(pm.response.responseTime).to.be.below(100);\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8888/api/v1/simulacoes/{11}",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"simulacoes",
+						"{11}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
